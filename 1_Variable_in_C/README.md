@@ -20,7 +20,7 @@
 	
 	Biến trong bộ nhớ: 
 	
-![anh](bien_trong_bo_nho)
+![anh](bien_trong_bo_nho.png)
 
 	Heap:
 	
@@ -91,9 +91,16 @@
 		dataType member1;
 		dataType member2;
 		...
-	};
-	```
-	
+	};```
+	Union: 
+	Một Union là dữ liệu đặc biệt trong ngôn ngữ C cho phép bạn dự trữ các kiểu dữ liệu khác nhau trong cùng một vùng nhớ. Bạn có thể định nghĩa Union với rất nhiều tham số, nhưng chỉ một thành phần chứa giá trị tại một thời điểm. Union cung cấp một cách hiệu quả cho việc sử dụng một vùng nhớ cho nhiều mục đích
+	```C
+	union structureName 
+	{
+		dataType member1;
+		dataType member2;
+		...
+	};```
 ## VI. Casting
  
 	
