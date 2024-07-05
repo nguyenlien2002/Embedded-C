@@ -85,22 +85,32 @@
 	
 	Cú pháp khai báo 1 struct: 
 	
-	```C
-	struct structureName 
-	{
-		dataType member1;
-		dataType member2;
-		...
-	};```
+```C
+struct structureName 
+{
+	dataType member1;
+	dataType member2;
+	...
+};
+````
 	Union: 
 	Một Union là dữ liệu đặc biệt trong ngôn ngữ C cho phép bạn dự trữ các kiểu dữ liệu khác nhau trong cùng một vùng nhớ. Bạn có thể định nghĩa Union với rất nhiều tham số, nhưng chỉ một thành phần chứa giá trị tại một thời điểm. Union cung cấp một cách hiệu quả cho việc sử dụng một vùng nhớ cho nhiều mục đích
-	```C
-	union structureName 
-	{
-		dataType member1;
-		dataType member2;
-		...
-	};```
+```C
+union structureName 
+{
+	dataType member1;
+	dataType member2;
+	...
+};
+````
 ## VI. Casting
  
+	- Ép kiểu: float / float = float, int / int = int
+	
+	- Tự động ép kiểu: char < int < long < float < double VD: float / int -> float / float
+	
+	- Trong 1 biểu thức gán thì kiểu dữ liệu của biểu thức bên phải được gán thành kiểu dữ liệu của biểu thức bên trái
+	
+	- Chủ động ép kiểu: (<new type>)<expression> 
+	
 	
