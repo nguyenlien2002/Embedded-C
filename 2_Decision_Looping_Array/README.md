@@ -90,9 +90,9 @@ case {Giá_trị_1} : case {Giá_trị_2} : ... : case {Giá_trị_n}:
 
 ### 1. Toán tử quan hệ:
 
-[anh](Toan_tu_quan_he.png)
+![anh](Toan_tu_quan_he.png)
 
 ### 2. Toán tử logic:
 
-[anh](Toan_tu_logic.png)
+![anh](Toan_tu_logic.png)
 
