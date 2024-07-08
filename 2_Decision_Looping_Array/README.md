@@ -97,3 +97,51 @@ case {Giá_trị_1} : case {Giá_trị_2} : ... : case {Giá_trị_n}:
 
 ![anh](Toan_tu_logic.png)
 
+## Vòng lặp
+
+### 1. Câu lệnh while():
+
+Cú pháp:
+
+```c 
+while (condition) {
+    statements;
+}
+```
+
+While thuộc về vòng lặp kiểm soát đầu vào. Trong vòng lặp này, một điều kiện được đánh giá trước khi xử lý thân vòng lặp. Một điều kiện đúng khi và chỉ khi thân vòng lặp được thực thi. Tiếp đó, điều khiển sẽ quay trở lại lúc đầu và kiểm tra đối chiếu với điều kiện xem nó có đúng không. Quá trình này sẽ được lặp đi lặp lại cho đến khi cho kết quả false. Khi đó, câu lệnh điều khiển sẽ thoát khỏi vòng lặp.
+
+Trong vòng lặp while, nếu điều kiện sai, thân vòng lặp sẽ không thực hiện.
+
+### 2. Câu lệnh for():
+
+Cú pháp:
+
+```c
+for (initialization; condition; increment/decrement) {
+  // code to execute repeatedly
+}
+```
+
+– Initialization: là lệnh khởi tạo giá trị ban đầu cho biến sử dụng trong vòng lặp.
+
+– Condition: là điều kiện để vòng lặp tiếp tục hoặc kết thúc.
+
+– Increment/decrement: là lệnh tăng hoặc giảm giá trị của biến sử dụng trong vòng lặp.
+
+### 3. Câu lệnh do ... while:
+Cú pháp:
+
+```c
+do {statements} 
+ while (expression);
+```
+Thân vòng lặp while được thực khi và chỉ khi điều kiện đúng. 
+
+Ở trường hợp ngược lại, nếu chúng ta muốn thực thi vòng lặp ít nhất một lần, ngay cả khi điều kiện sai, có thể sử dụng vòng lặp do-while.
+
+Trong vòng lặp do-while, thân vòng lặp luôn được thực thi ít nhất một lần. Sau đó, nó sẽ tiến đến giai đoạn kiểm tra điều kiện. Nếu điều kiện đúng, thân vòng lặp sẽ được thực thi thêm một lần nữa. Nếu sai, điều khiển sẽ thoát ra khỏi vòng lặp.
+
+### 4. Các lệnh điều khiển vòng lặp:
+![anh](Lenh_dieu_khien_vong_lap.png)
+
