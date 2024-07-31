@@ -1,6 +1,6 @@
 [Project]
-FileName=Embedded_C.dev
-Name=Embedded_C
+FileName=Nguyen_Thi_Lien_ASM9_v1.0.dev
+Name=Nguyen_Thi_Lien_ASM9_v1.0
 Type=1
 Ver=2
 ObjFiles=
@@ -61,7 +61,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit2]
-FileName=test.c
+FileName=..\phuong.c
 CompileCpp=0
 Folder=
 Compile=1
