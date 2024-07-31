@@ -232,7 +232,7 @@ Sau khi goi ham :
 Gia tri cua ptr1 : 6487580
 Gia tri cua ptr2 : 6487580
 ```
-
+**Truy xuất con trỏ quá kich thước của mảng thì con trỏ sẽ truy xuất sang 1 địa chỉ khác k phải địa chỉ của mảng**
 ## CẤP PHÁT BỘ NHỚ ĐỘNG TRONG C 
 
 Để cấp phát vùng nhớ động cho biến con trỏ trong ngôn ngữ C, bạn có thể sử dụng hàm malloc() hoặc hàm calloc(). Sử dụng hàm free() để giải phóng bộ nhớ đã cấp phát khi không cần sử dụng, sử dụng realloc() để thay đổi (phân bổ lại) kích thước bộ nhớ đã cấp phát trong khi chạy chương trình.
