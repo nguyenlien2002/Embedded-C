@@ -8,7 +8,7 @@ Danh sách liên kết đơn có chức năng giống với mảng (array) như 
 Một danh sách liên kết sẽ bao gồm các "node". Mỗi "node" gồm 2 thành phần là dữ liệu (data) và con trỏ để trỏ tới "node" tiếp theo nhằm tạo mối liên kết. 
 Nếu số lượng mối liên kết của mỗi "node" là một thì danh sách trên được gọi là danh dách liên kết đơn.
 
-![anh](Singly linked list.png)
+![anh](Singly_linked_list.png)
 ### 2. Xây dựng và một số thao tác với danh sách liện kết đơn:
 
 Một "node" của danh sách liên kết đơn được xây dựng như sau (ở đây để đơn giản mình sẽ để data có kiểu dữ liệu int).
